@@ -5,18 +5,33 @@
 		<style>
 		p {
 			color: purple;
-			font-size: 36px;
+			font-size: 26px;
+			font-family: Verdana
 		}
 		body {
 			background-image: url("https://www.graphicsfuel.com/wp-content/uploads/2012/10/subtle-grunge-texture4-preview.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
+		#headshot {
+			width: 230px;
+			height: 300px;
+		}
+		/* class is .
+		id is #*/
+		.text {
+			font-weight: bold;
+		}
+		div {
+			margin-left: 370px;
+			margin-right: 370px;
+		}
 		</style>
 	</head>
 	
 	<body>
-		<img src="https://d21gd0ap5v1ndt.cloudfront.net/web02/midland/images/mug_shots/2020-21/mika_welch_53_wih.jpg?v82c2f1bca8670543140ecd5c648a541d0be42eaf" width="230px" height="300px">
+		<center>
+			<img src="https://d21gd0ap5v1ndt.cloudfront.net/web02/midland/images/mug_shots/2020-21/mika_welch_53_wih.jpg?v82c2f1bca8670543140ecd5c648a541d0be42eaf" id="headshot">
 		<h1>
 			Mika Welch
 		</h1>
@@ -32,13 +47,15 @@
 			Sophomore<br>
 			MU Women's Hockey<br>
 			</h5>
-		<p>
+		</center>
+		<p align="center">
 			Hi, my name is Mika. I play on the women's hockey team at Midland. I lived in North Dakota for about 10 years, then moved to Oklahoma and lived there for 10 years. When i am not with the hockey team, i like to listen to music or play video games. I work at the library help desk on campus during the week.
 		</p>
+		<div>
 		<h2>
 			My top skills
 		</h2>
-		<ul>
+		<ul class="text">
 			<li>organized
 			<li>friendly
 			<li>helpful
@@ -47,10 +64,12 @@
 		<h2>
 			My favourite classes
 		</h2>
-		<ol>
+		<ol class="text">
 			<li>This class
 			<li>Composition II
 			<li>Art Appreciation
 			<li>Object Oriented Programming
 		</ol>
-			
+		</div>
+	</body>
+</html>
